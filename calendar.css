@@ -9,7 +9,7 @@
   
   /* navbar */
   header {
-    color: #2a2a2a;
+    color: #141414;
     padding-bottom: 0%;
     margin-bottom: 0%;
   }
@@ -78,7 +78,7 @@
   }
   /* Change the color of links on hover */
   .topnav .ul a:hover {
-    background-color: rgb(241, 241, 241);
+    background-color: #ffdc3c;
     color: black;
     border-radius: 6%;
     -webkit-transform: scale(1.08);
@@ -482,22 +482,22 @@
   .events .event:hover::after {
     display: flex;
   }
-  .add-event {
-    position: absolute;
-    bottom: 0px; /* Menggeser posisi elemen ke bawah sejauh 50px */
-    right: 50px;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1rem;
-    color: #141414;
-    border: 2px solid #141414;
-    border-radius: 50%;
-    background-color: #ffdc3c;
-    cursor: pointer;
-  }
+.add-event {
+  position: absolute;
+  bottom: 0px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: #141414;
+  border: 2px solid #141414;
+  border-radius: 50%;
+  background-color: #ffdc3c;
+  cursor: pointer;
+}
   
   .add-event:hover {
     opacity: 1;
