@@ -373,7 +373,9 @@
   }
   
   .calendar .goto-today .today-btn {
-    margin-top: 85px;
+    margin-top: 65px;
+    margin-right: 25em;
+    border-radius: 10px;
   }
   
   .container .right {
