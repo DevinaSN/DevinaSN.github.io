@@ -1,77 +1,53 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="icon" href="https://github.com/LydiaWulandari/5/blob/main/Black-and-White-Monochrome-Tech-Logo-13.png?raw=true">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<!-- bootstrap lokal -->
-	<!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.css"> -->
+    <title>Feelstora: About Us</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+     <link rel="stylesheet" href="about.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"/>
+  </head>
+  
+  <body>
+    <header>
+      <div class="topnav fixed-top">
+          <div class="navbar-brand">
+            <a class="brand" href="index.html">
+              <img href="index.html"
+              src="https://github.com/LydiaWulandari/D2-HTML-Basic/blob/main/feelstora_logo.png?raw=true"
+              alt="feelstora-logo"
+              class="img-brand"/>
+            </a> 
+            <ul class="ul">
+              <div class="topnav-right">
+                <a href="todo.html" class="active">To Do List</a>
+                <a href="notebook.html">Notebook</a>
+                <a href="calendar.html">Calendar</a>
+                <a href="about.html">About</a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    
 
-	<!-- bootstrap online -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-
-	<!-- font montserrat -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
-
-	<!-- font awesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-
-    <!-- link styles -->
-    <link rel="stylesheet" type="text/css" href="about.css">
-
-    <!-- logo website -->
-    <link rel="icon" type="image/icon" href="assets/logo/half_yellow.png">
-
-	<!-- nama website -->
-	<title>Feelstora: Power Your Tasks!</title>
-</head>
-<body id="home-page">
-	<!-- debbuging -->
-	<!-- <h1>hello world!</h1> -->
-
-	<!-- start navigation -->
-	<div class="container-navigation navbar navbar-expand-lg fixed-top">
-		<div class="container">
-			<a class="navbar-brand" href="#home-page">
-			  <img src="assets/logo/half_black_nav.png" alt="logo" width="50" height="40">Feelstora</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			  <span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-			  <ul class="navbar-nav ms-auto">
-				<li class="nav-item">
-				  <a class="nav-link" aria-current="page" href="#" >To Do List</a>
-				</li>
-
-				<li class="nav-item">
-				  <a class="nav-link" href="#">Notebook</a>
-				</li>
-
-				<li class="nav-item">
-				  <a class="nav-link" href="#">Calendar</a>
-				</li>
-
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-					  About Us
-					</a>
-					<ul class="dropdown-menu">
-					  <li><a class="dropdown-item" href="#about">About</a></li>
-					  <li><hr class="dropdown-divider"></li>
-					  <li><a class="dropdown-item" href="#description">Our Features</a></li>
-					  <li><hr class="dropdown-divider"></li>
-					  <li><a class="dropdown-item" href="#profile">Teams</a></li>
-					</ul>
-				  </li>
-			  </ul>
-			</div>
-		</div>
-	</div>
-	<!-- end navigation -->
-
-	<!-- start jumbotron -->
+    <!-- start jumbotron -->
 	<div class="container-about" id="about">
 		<div class="jumbotron-hello p-5">
 			<div class="container-fluid py-5">
@@ -93,340 +69,335 @@
 			<hr>
 		</div>
 
-		<div class="container-todolist d-flex">
-			<div class="todolist-image">
+		<div class="container-features-image d-flex">
+			<div class="container-todolist-image"></div>
+	
+			<div class="container-notebook-image"></div>
+	
+			<div class="container-calendar-image"></div>
+		</div>
 
-			</div>
-
-			<div class="todolist-text">
+		<div class="container-features-text d-flex">
+			<div class="container-todolist-text">
 				<h1>To Do List!</h1>
-				<p>Master your work, organize your life. Remember everything and simply tackle every project with your notes, tasks and schedule all in one place.</p>
+				<p>Use a “To Do List” to capture each powerful step of the project work. User can add task, due date, type of project, status, and description. You can also edit or delete your task. Start simple, customize as you go.</p>
 			</div>
-		</div>
-
-		<div class="container-notebook d-flex">
-			<div class="notebook-text">
+	
+			<div class="container-notebook-text">
 				<h1>My Notebook</h1>
-				<p>Organize your thoughts, ideas, and important notes effortlessly with “My Notebook”.</p>
+				<p>“My Notebook”, your space to organize and prioritize your projects. You can add task description, edit even delete your task. Capture important ideas and information in a way that helps you stay productive.</p>
 			</div>
-
-			<div class="notebook-image">
-				
-			</div>
-		</div>
-
-		<div class="container-calendar d-flex">
-			<div class="calendar-image">
-
-			</div>
-
-			<div class="calendar-text">
+	
+			<div class="container-calendar-text">
 				<h1>My Calendar</h1>
-				<p>Stay on top of your schedule and never miss a beat with “My Calendar”. create, edit, and track your events with customizable calender</p>
+				<p>View your work on “My Calendar” to easily identify gaps and overlaps in your schedule and make adjustments. Simply create an event to your calendar and boost productivity for everyone. 
+				</p>
 			</div>
 		</div>
 	</div>
 	<!-- end description -->
 
 	<!-- start profile team -->
-	<div class="container" id="profile">
-		<div class="container-profile">
-			<!-- profile heading -->
-			<div class="profile-heading row justify-content-center">
-				<div class="col-12 col-sm-8 col-lg-6">
-					<div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-					<h3>TEAM 3</h3>
-					<p>It is our team to build project "Feelstora" in Software Engineering cycle in Kampus Merdeka Rev</p>
-					<hr>
-					<div class="line"></div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<!-- hidden profile -->
-				<div class="first-hidden col-12 col-sm-6 col-lg-3">
-					<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-					<!-- Team Thumb-->
-					<div class="advisor_thumb"><img src="" alt="">
-						<!-- Social Info-->
-						<div class="social-info">
-							<a href=""><i class="fa fa-instagram"></i></a>
-							<a href=""><i class="fa fa-linkedin"></i></a>
+	<div class="bg-team">
+		<div class="container" id="profile">
+			<div class="container-profile">
+				<!-- profile heading -->
+				<div class="profile-heading row justify-content-center">
+					<div class="col-12 col-sm-8 col-lg-6">
+						<div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+						<h3>TEAM 3</h3>
+						<p>It is our team to build project "Feelstora" in Software Engineering cycle in Kampus Merdeka RevoU</p>
+						<hr>
+						<div class="line"></div>
 						</div>
 					</div>
-					<!-- Team Details-->
-					<div class="single_advisor_details_info">
-						<h6>blabla</h6>
-						<p class="designation">blabla</p>
-					</div>
-					</div>
 				</div>
-
-				<!-- first profile -->
-				<div class="col-12 col-sm-6 col-lg-3">
-					<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-					<!-- Team Thumb-->
-					<div class="advisor_thumb"><img src="assets/team/edit/devina.png" alt="devina">
-						<!-- Social Info-->
-						<div class="social-info">
-							<a href="https://www.instagram.com/devina.sn/"><i class="fa fa-instagram"></i></a>
-							<a href="https://www.linkedin.com/in/devina-syifa-nabila-87ba9a1b3"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-					<!-- Team Details-->
-					<div class="single_advisor_details_info">
-						<h6>Devina Syifa Nabila</h6>
-						<p class="designation">Captain</p>
-					</div>
-					</div>
-				</div>
-
-				<!-- second profile -->
-				<div class="col-12 col-sm-6 col-lg-3">
-					<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-					<!-- Team Thumb-->
-					<div class="advisor_thumb"><img src="assets/team/edit/yudha.png" alt="yudha">
-						<!-- Social Info-->
-						<div class="social-info">
-							<a href="https://www.instagram.com/yuuudh.a/"><i class="fa fa-instagram"></i></a>
-							<a href="https://www.linkedin.com/in/arifienyudha/ "><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-					<!-- Team Details-->
-					<div class="single_advisor_details_info">
-						<h6>Arifien Yudha</h6>
-						<p class="designation">Vice Captain</p>
-					</div>
-					</div>
-				</div>
-
-				<!-- hidden profile -->
-				<div class="second-hidden col-12 col-sm-6 col-lg-3">
-					<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-					<!-- Team Thumb-->
-					<div class="advisor_thumb"><img src="assets/team/devina.jpg" alt="">
-						<!-- Social Info-->
-						<div class="social-info">
-							<a href="https://www.instagram.com/devina.sn/"><i class="fa fa-instagram"></i></a>
-							<a href="https://www.linkedin.com/in/devinasyifanabila/"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-					<!-- Team Details-->
-					<div class="single_advisor_details_info">
-						<h6>Devina Syifa Nabila</h6>
-						<p class="designation">Captain</p>
-					</div>
-					</div>
-				</div>
-
-				<!-- third profile -->
-				<div class="col-12 col-sm-6 col-lg-3">
-					<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-					<!-- Team Thumb-->
-					<div class="advisor_thumb"><img src="assets/team/edit/aria.png" alt="aria">
-						<!-- Social Info-->
-						<div class="social-info">
-							<a href="https://www.instagram.com/ariadws_"><i class="fa fa-instagram"></i></a>
-							<a href="https://www.linkedin.com/in/aria-dewi-septiani"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-					<!-- Team Details-->
-					<div class="single_advisor_details_info">
-						<h6>Aria Dewi Septiani</h6>
-						<p class="designation">Member</p>
-					</div>
-					</div>
-				</div>
-
-				<!-- fourth profile -->
-				<div class="col-12 col-sm-6 col-lg-3">
-					<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-					<!-- Team Thumb-->
-					<div class="advisor_thumb"><img src="assets/team/edit/julius.png" alt="julius">
-						<!-- Social Info-->
-						<div class="social-info">
-							<a href="https://www.instagram.com/juliusgunawan__"><i class="fa fa-instagram"></i></a>
-							<a href="https://www.linkedin.com/in/julius-gunawan"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-					<!-- Team Details-->
-					<div class="single_advisor_details_info">
-						<h6>Julius Gunawan</h6>
-						<p class="designation">Member</p>
-					</div>
-					</div>
-				</div>
-
-				<!-- fifth profile -->
-				<div class="col-12 col-sm-6 col-lg-3">
-					<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-					<!-- Team Thumb-->
-					<div class="advisor_thumb"><img src="assets/team/edit/dila.png" alt="dila">
-						<!-- Social Info-->
-						<div class="social-info">
-							<a href="https://www.instagram.com/devina.sn/"><i class="fa fa-instagram"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-					<!-- Team Details-->
-					<div class="single_advisor_details_info">
-						<h6>Dila Marwah Fauziah</h6>
-						<p class="designation">Member</p>
-					</div>
-					</div>
-				</div>
-
-				<!-- sixth profile  -->
-				<div class="col-12 col-sm-6 col-lg-3">
-					<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-					<!-- Team Thumb-->
-					<div class="advisor_thumb"><img src="assets/team/edit/berliana.png" alt="berliana">
-						<!-- Social Info-->
-						<div class="social-info">
-							<a href="https://www.instagram.com/berlianamhs"><i class="fa fa-instagram"></i></a>
-							<a href="https://www.linkedin.com/in/berliana-maharani"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-					<!-- Team Details-->
-					<div class="single_advisor_details_info">
-						<h6>Berliana Maharani</h6>
-						<p class="designation">Member</p>
-					</div>
-					</div>
-				</div>
-
-				<!-- seventh profile -->
-				<div class="col-12 col-sm-6 col-lg-3">
-					<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-					<!-- Team Thumb-->
-					<div class="advisor_thumb"><img src="assets/team/edit/lydia.png" alt="lydia">
-						<!-- Social Info-->
-						<div class="social-info">
-							<a href="https://instagram.com/lydia_wulandari"><i class="fa fa-instagram"></i></a>
-							<a href="https://www.linkedin.com/in/lydia-w"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-					<!-- Team Details-->
-					<div class="single_advisor_details_info">
-						<h6>Lydia Wulandari</h6>
-						<p class="designation">Member</p>
-					</div>
-					</div>
-				</div>
-
-				<!-- eighth profile -->
-				<div class="col-12 col-sm-6 col-lg-3">
-					<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-					<!-- Team Thumb-->
-					<div class="advisor_thumb"><img src="assets/team/edit/manar.png" alt="manar">
-						<!-- Social Info-->
-						<div class="social-info">
-							<a href="https://www.instagram.com/manarhrp_/"><i class="fa fa-instagram"></i></a>
-							<a href="https://www.linkedin.com/in/manarhrp/ "><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-					<!-- Team Details -->
-					<div class="single_advisor_details_info">
-						<h6>Manar Harahap</h6>
-						<p class="designation">Member</p>
-					</div>
-					</div>
-				</div>
-
-				<!-- ninth profile -->
-				<div class="col-12 col-sm-6 col-lg-3">
-					<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-					<!-- Team Thumb-->
-					<div class="advisor_thumb"><img src="assets/team/edit/karin.png" alt="karina">
-						<!-- Social Info-->
-						<div class="social-info">
-							<a href="https://www.instagram.com/karina_gayatri"><i class="fa fa-instagram"></i></a>
-							<a href="https://www.linkedin.com/in/putu-karina-gayatri/"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-					<!-- Team Details-->
-					<div class="single_advisor_details_info">
-						<h6>Putu Karina Gayatri</h6>
-						<p class="designation">Member</p>
-					</div>
-					</div>
-				</div>
-
-				<!-- tenth profile -->
-				<div class="col-12 col-sm-6 col-lg-3">
-					<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-					<!-- Team Thumb-->
-					<div class="advisor_thumb"><img src="assets/team/edit/ageng.png" alt="ageng">
-						<!-- Social Info-->
-						<div class="social-info">
-							<a href="https://www.instagram.com/ageng_handoko "><i class="fa fa-instagram"></i></a>
-							<a href="https://www.linkedin.com/in/rahmadagenghandoko"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-					<!-- Team Details-->
-					<div class="single_advisor_details_info">
-						<h6>Rahmad Ageng</h6>
-						<p class="designation">Member</p>
-					</div>
-					</div>
-				</div>
-
-				<div class="container-11-13">
-					<!-- Single Advisor-->
-					<div class="eleventh col-12 col-sm-6 col-lg-3">
+	
+				<div class="row">
+					<!-- hidden profile -->
+					<div class="first-hidden col-12 col-sm-6 col-lg-3">
 						<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
 						<!-- Team Thumb-->
-						<div class="advisor_thumb"><img src="assets/team/edit/reni.png" alt="reni">
+						<div class="advisor_thumb"><img src="" alt="">
 							<!-- Social Info-->
 							<div class="social-info">
-								<a href="https://www.instagram.com/reniiianggraini27"><i class="fa fa-instagram"></i></a>
-								<a href="https://www.linkedin.com/in/renivianggraini/"><i class="fa fa-linkedin"></i></a>
+								<a href=""><i class="fa fa-instagram"></i></a>
+								<a href=""><i class="fa fa-linkedin"></i></a>
 							</div>
 						</div>
 						<!-- Team Details-->
 						<div class="single_advisor_details_info">
-							<h6>Reni Vianggraini</h6>
-							<p class="designation">Member</p>
+							<h6>blabla</h6>
+							<p class="designation">blabla</p>
 						</div>
 						</div>
 					</div>
-
-					<!-- Single Advisor-->
-					<div class="twelfth col-12 col-sm-6 col-lg-3">
+	
+					<!-- first profile -->
+					<div class="col-12 col-sm-6 col-lg-3">
 						<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
 						<!-- Team Thumb-->
-						<div class="advisor_thumb"><img src="assets/team/edit/rey.png" alt="rey">
+						<div class="advisor_thumb"><img src="https://github.com/reyfaldigit/website-todolist-feelstora/blob/main/devina.png?raw=true" alt="devina">
 							<!-- Social Info-->
 							<div class="social-info">
-								<a href="https://www.instagram.com/velonixe/"><i class="fa fa-instagram"></i></a>
-								<a href="https://www.linkedin.com/in/reyfaldimaulana/"><i class="fa fa-linkedin"></i></a>
+								<a href="https://www.instagram.com/devina.sn/" target="_blank"><i class="fa fa-instagram"></i></a>
+								<a href="https://www.linkedin.com/in/devina-syifa-nabila-87ba9a1b3" target="_blank"><i class="fa fa-linkedin"></i></a>
 							</div>
 						</div>
 						<!-- Team Details-->
 						<div class="single_advisor_details_info">
-							<h6>Reyfaldi Maulana</h6>
-							<p class="designation">Member</p>
+							<h6>Devina Syifa Nabila</h6>
+							<p class="designation">Captain</p>
 						</div>
 						</div>
 					</div>
-
-					<!-- Single Advisor-->
-					<div class="thirteenth col-12 col-sm-6 col-lg-3">
+	
+					<!-- second profile -->
+					<div class="col-12 col-sm-6 col-lg-3">
 						<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
 						<!-- Team Thumb-->
-						<div class="advisor_thumb"><img src="assets/team/edit/wiwit.png" alt="wiwit">
+						<div class="advisor_thumb"><img src="https://raw.githubusercontent.com/reyfaldigit/website-todolist-feelstora/main/yudha.png" alt="yudha">
 							<!-- Social Info-->
 							<div class="social-info">
-								<a href="https://www.instagram.com/wiwitekah/"><i class="fa fa-instagram"></i></a>
-								<a href="https://www.linkedin.com/in/wiwithaniyah"><i class="fa fa-linkedin"></i></a>
+								<a href="https://www.instagram.com/yuuudh.a/" target="_blank"><i class="fa fa-instagram"></i></a>
+								<a href="https://www.linkedin.com/in/arifienyudha/" target="_blank"><i class="fa fa-linkedin"></i></a>
 							</div>
 						</div>
 						<!-- Team Details-->
 						<div class="single_advisor_details_info">
-							<h6>Wiwit Eka Haniyah</h6>
+							<h6>Arifien Yudha</h6>
+							<p class="designation">Vice Captain</p>
+						</div>
+						</div>
+					</div>
+	
+					<!-- hidden profile -->
+					<div class="second-hidden col-12 col-sm-6 col-lg-3">
+						<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+						<!-- Team Thumb-->
+						<div class="advisor_thumb"><img src="" alt="">
+							<!-- Social Info-->
+							<div class="social-info">
+								<a href=""><i class="fa fa-instagram"></i></a>
+								<a href=""><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+						<!-- Team Details-->
+						<div class="single_advisor_details_info">
+							<h6>blabla</h6>
+							<p class="designation">blabla</p>
+						</div>
+						</div>
+					</div>
+	
+					<!-- third profile -->
+					<div class="col-12 col-sm-6 col-lg-3">
+						<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+						<!-- Team Thumb-->
+						<div class="advisor_thumb"><img src="https://github.com/reyfaldigit/website-todolist-feelstora/blob/main/aria%202.png?raw=true" alt="aria">
+							<!-- Social Info-->
+							<div class="social-info">
+								<a href="https://www.instagram.com/ariadws_" target="_blank"><i class="fa fa-instagram"></i></a>
+								<a href="https://www.linkedin.com/in/aria-dewi-septiani" target="_blank"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+						<!-- Team Details-->
+						<div class="single_advisor_details_info">
+							<h6>Aria Dewi Septiani</h6>
 							<p class="designation">Member</p>
 						</div>
+						</div>
+					</div>
+	
+					<!-- fourth profile -->
+					<div class="col-12 col-sm-6 col-lg-3">
+						<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+						<!-- Team Thumb-->
+						<div class="advisor_thumb"><img src="https://github.com/reyfaldigit/website-todolist-feelstora/blob/main/julius.png?raw=true" alt="julius">
+							<!-- Social Info-->
+							<div class="social-info">
+								<a href="https://www.instagram.com/juliusgunawan__" target="_blank"><i class="fa fa-instagram"></i></a>
+								<a href="https://www.linkedin.com/in/julius-gunawan" target="_blank"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+						<!-- Team Details-->
+						<div class="single_advisor_details_info">
+							<h6>Julius Gunawan</h6>
+							<p class="designation">Member</p>
+						</div>
+						</div>
+					</div>
+	
+					<!-- fifth profile -->
+					<div class="col-12 col-sm-6 col-lg-3">
+						<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+						<!-- Team Thumb-->
+						<div class="advisor_thumb"><img src="https://github.com/reyfaldigit/website-todolist-feelstora/blob/main/dila.png?raw=true" alt="dila">
+							<!-- Social Info-->
+							<div class="social-info">
+								<a href="https://instagram.com/dila_mf" target="_blank"><i class="fa fa-instagram"></i></a>
+								<a href="https://www.linkedin.com/in/dila-marwah-f-61847b1ba" target="_blank"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+						<!-- Team Details-->
+						<div class="single_advisor_details_info">
+							<h6>Dila Marwah Fauziah</h6>
+							<p class="designation">Member</p>
+						</div>
+						</div>
+					</div>
+	
+					<!-- sixth profile  -->
+					<div class="col-12 col-sm-6 col-lg-3">
+						<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+						<!-- Team Thumb-->
+						<div class="advisor_thumb"><img src="https://raw.githubusercontent.com/reyfaldigit/website-todolist-feelstora/main/berliana.png" alt="berliana">
+							<!-- Social Info-->
+							<div class="social-info">
+								<a href="https://www.instagram.com/berlianamhs" target="_blank"><i class="fa fa-instagram"></i></a>
+								<a href="https://www.linkedin.com/in/berliana-maharani" target="_blank"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+						<!-- Team Details-->
+						<div class="single_advisor_details_info">
+							<h6>Berliana Maharani</h6>
+							<p class="designation">Member</p>
+						</div>
+						</div>
+					</div>
+	
+					<!-- seventh profile -->
+					<div class="col-12 col-sm-6 col-lg-3">
+						<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+						<!-- Team Thumb-->
+						<div class="advisor_thumb"><img src="https://github.com/reyfaldigit/website-todolist-feelstora/blob/main/lydia.png?raw=true" alt="lydia">
+							<!-- Social Info-->
+							<div class="social-info">
+								<a href="https://instagram.com/lydia_wulandari" target="_blank"><i class="fa fa-instagram"></i></a>
+								<a href="https://www.linkedin.com/in/lydia-w" target="_blank"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+						<!-- Team Details-->
+						<div class="single_advisor_details_info">
+							<h6>Lydia Wulandari</h6>
+							<p class="designation">Member</p>
+						</div>
+						</div>
+					</div>
+	
+					<!-- eighth profile -->
+					<div class="col-12 col-sm-6 col-lg-3">
+						<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+						<!-- Team Thumb-->
+						<div class="advisor_thumb"><img src="https://github.com/reyfaldigit/website-todolist-feelstora/blob/main/manar.png?raw=true" alt="manar">
+							<!-- Social Info-->
+							<div class="social-info">
+								<a href="https://www.instagram.com/manarhrp_/" target="_blank"><i class="fa fa-instagram"></i></a>
+								<a href="https://www.linkedin.com/in/manarhrp/ " target="_blank"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+						<!-- Team Details -->
+						<div class="single_advisor_details_info">
+							<h6>Manar Harahap</h6>
+							<p class="designation">Member</p>
+						</div>
+						</div>
+					</div>
+	
+					<!-- ninth profile -->
+					<div class="col-12 col-sm-6 col-lg-3">
+						<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+						<!-- Team Thumb-->
+						<div class="advisor_thumb"><img src="https://github.com/reyfaldigit/website-todolist-feelstora/blob/main/karin.png?raw=true" alt="karina">
+							<!-- Social Info-->
+							<div class="social-info">
+								<a href="https://www.instagram.com/karina_gayatri" target="_blank"><i class="fa fa-instagram"></i></a>
+								<a href="https://www.linkedin.com/in/putu-karina-gayatri/" target="_blank"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+						<!-- Team Details-->
+						<div class="single_advisor_details_info">
+							<h6>Putu Karina Gayatri</h6>
+							<p class="designation">Member</p>
+						</div>
+						</div>
+					</div>
+	
+					<!-- tenth profile -->
+					<div class="col-12 col-sm-6 col-lg-3">
+						<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+						<!-- Team Thumb-->
+						<div class="advisor_thumb"><img src="https://github.com/reyfaldigit/website-todolist-feelstora/blob/main/ageng-min.png?raw=true" alt="ageng">
+							<!-- Social Info-->
+							<div class="social-info">
+								<a href="https://www.instagram.com/ageng_handoko " target="_blank"><i class="fa fa-instagram"></i></a>
+								<a href="https://www.linkedin.com/in/rahmadagenghandoko" target="_blank"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+						<!-- Team Details-->
+						<div class="single_advisor_details_info">
+							<h6>Rahmad Ageng</h6>
+							<p class="designation">Member</p>
+						</div>
+						</div>
+					</div>
+	
+					<div class="container-11-13">
+						<!-- Single Advisor-->
+						<div class="eleventh col-12 col-sm-6 col-lg-3">
+							<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+							<!-- Team Thumb-->
+							<div class="advisor_thumb"><img src="https://github.com/reyfaldigit/website-todolist-feelstora/blob/main/reni%202.png?raw=true" alt="reni">
+								<!-- Social Info-->
+								<div class="social-info">
+									<a href="https://www.instagram.com/reniiianggraini27" target="_blank"><i class="fa fa-instagram"></i></a>
+									<a href="https://www.linkedin.com/in/renivianggraini/" target="_blank"><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+							<!-- Team Details-->
+							<div class="single_advisor_details_info">
+								<h6>Reni Vianggraini</h6>
+								<p class="designation">Member</p>
+							</div>
+							</div>
+						</div>
+	
+						<!-- Single Advisor-->
+						<div class="twelfth col-12 col-sm-6 col-lg-3">
+							<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+							<!-- Team Thumb-->
+							<div class="advisor_thumb"><img src="https://github.com/reyfaldigit/website-todolist-feelstora/blob/main/rey.png?raw=true" alt="rey">
+								<!-- Social Info-->
+								<div class="social-info">
+									<a href="https://www.instagram.com/velonixe/" target="_blank"><i class="fa fa-instagram"></i></a>
+									<a href="https://www.linkedin.com/in/reyfaldimaulana/" target="_blank"><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+							<!-- Team Details-->
+							<div class="single_advisor_details_info">
+								<h6>Reyfaldi Maulana</h6>
+								<p class="designation">Member</p>
+							</div>
+							</div>
+						</div>
+	
+						<!-- Single Advisor-->
+						<div class="thirteenth col-12 col-sm-6 col-lg-3">
+							<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+							<!-- Team Thumb-->
+							<div class="advisor_thumb"><img src="https://github.com/reyfaldigit/website-todolist-feelstora/blob/main/wiwit.png?raw=true" alt="wiwit">
+								<!-- Social Info-->
+								<div class="social-info">
+									<a href="https://www.instagram.com/wiwitekah/" target="_blank"><i class="fa fa-instagram"></i></a>
+									<a href="https://www.linkedin.com/in/wiwithaniyah" target="_blank"><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+							<!-- Team Details-->
+							<div class="single_advisor_details_info">
+								<h6>Wiwit Eka Haniyah</h6>
+								<p class="designation">Member</p>
+							</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -434,8 +405,11 @@
 		</div>
 	</div>
 	<!-- end profile team -->
-
-	<!-- bootstrap online -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</body>
+  </body>
+  <script src="about.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
 </html>
