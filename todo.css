@@ -14,7 +14,7 @@ header {
   margin-bottom: 0%;
 }
 .topnav {
-  background-color: #ffdc3c;
+  background-color: #2a2a2a;
   overflow: hidden;
   margin-top: 0%;
   margin-bottom: 1%;
@@ -29,7 +29,7 @@ header {
   margin-top: -2%;
   margin-left: 5%;
   margin-right: -300%;
-  width: 100%; 
+  width: 100%;
 }
 
 .img-brand {
@@ -40,7 +40,7 @@ header {
   padding-left: 1.5%;
   margin-top: -1.5%;
   background-color: rgb(241, 241, 241);
-  padding-top: 1% ;
+  padding-top: 1%;
   padding-bottom: 20px;
 }
 
@@ -55,7 +55,7 @@ header {
 
 .topnav .ul a {
   float: left;
-  color: #141414;
+  color: #ffff;
   padding: 2%;
 }
 
@@ -77,11 +77,11 @@ header {
 }
 /* Change the color of links on hover */
 .topnav .ul a:hover {
-  background-color: rgb(241, 241, 241);
+  background-color: #ffdc3c;
   color: black;
   border-radius: 6%;
   -webkit-transform: scale(1.08);
-  transform: scale(1.05)
+  transform: scale(1.05);
 }
 @media screen and (max-width: 1100px) {
   .topnav-right {
@@ -178,7 +178,6 @@ body {
 }
 .app {
   margin-top: 4%;
-
 }
 /* .app {
   background-color: rgb(255, 255, 255);
@@ -215,7 +214,7 @@ body {
 }
 #addNew:hover {
   -webkit-transform: scale(1.08);
-  transform: scale(1.05)
+  transform: scale(1.05);
 }
 .fa-plus {
   background-color: #ffdc3c;
@@ -249,18 +248,14 @@ body {
 }
 
 #tasks div {
-  /* border: 3px solid hsl(0, 0%, 0%); */
   background-color: hsl(60, 4%, 89%);
   border-width: 1px;
   background-position: 20%;
-  /* border-radius: 15%; */
   padding: 2%;
   display: grid;
   gap: 1%;
   margin-left: 5%;
   margin-right: 5%;
-  /* width: auto;
-  height: auto; */
 }
 
 #tasks div .options {
@@ -269,21 +264,55 @@ body {
   gap: 10%;
   width: auto;
   height: auto;
+  color: #141414;
 }
 
 #tasks div .options i {
   cursor: pointer;
 }
 
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.modal-footer button {
+  margin-left: 10px;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #d4d4d4;
+  color: #141414;
+}
+
+.modal-footer .btn-primary {
+  background-color: #ffdc3c;
+  color: #141414;
+}
+
 #msg {
   color: #ff8800;
 }
-/* .text-secondary {
-  width: auto;
+
+select option i {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
 }
-.w-100 {
-  width: 100px;
+
+select::-ms-expand {
+  display: none;
 }
-.h-100 {
-  height: 100px;
-} */
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 25px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6" /></svg>');
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+}
