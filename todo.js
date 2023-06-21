@@ -79,13 +79,13 @@ let createTasks = () => {
   data.map((x, y) => {
     return (tasks.innerHTML += `
     <div id=${y} style="font-family: 'Monstserrat', Raleway;">
-    <span class="fw-bold" style="font-size: 15px; padding: 2px 5px;">${x.text}</span>
-    <span class="small text-secondary" style="font-size: 12px;padding: 2px 5px;">${x.date}</span>
+    <span class="fw-bold" style="font-size: 18px; padding: 2px 5px;">${x.text}</span>
+    <span class="small text-secondary" style="font-size: 15px;padding: 2px 5px;">${x.date}</span>
     <span style="font-size: 15px">
-        <span class="small label label-secondary" style="font-size: 12px; padding: 1px 8px; background-color: #ffff; color: rgba(0, 0, 0, 1); max-width: 100px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; border-radius: 8px">${x.type}</span> &nbsp;  &nbsp;  &nbsp;  &nbsp;
-        <span class="small label label-secondary" style="font-size: 12px; padding: 1px 8px; background-color: #ffdc3c; color: rgba(0, 0, 0, 1); max-width: 100px; border-radius: 8px">${x.status}</span>
+        <span class="small label label-secondary" style="font-size: 15px; padding: 1px 8px; background-color: #ffff; color: rgba(0, 0, 0, 1); max-width: 100px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; border-radius: 8px">${x.type}</span> &nbsp;  &nbsp;  &nbsp;  &nbsp;
+        <span class="small label label-secondary" style="font-size: 15px; padding: 1px 8px; background-color: #ffdc3c; color: rgba(0, 0, 0, 1); max-width: 100px; border-radius: 8px">${x.status}</span>
       </span>
-    <span style="font-size: 12px; padding: 2px 5px">${x.description}</span>
+    <span style="font-size: 15px; padding: 2px 5px">${x.description}</span>
     <br>
     <span class="options">
     <i onClick= "editTask(this)" data-bs-toggle="modal" data-bs-target="#form" class="fas fa-edit"></i> &nbsp; &nbsp; &nbsp; &nbsp; <i onClick ="deleteTask(this);createTasks()" class="fas fa-trash-alt"></i> </span>
