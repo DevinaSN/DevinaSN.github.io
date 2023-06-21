@@ -177,7 +177,7 @@
     background-color: #ffffff6c;
     margin-left: 5%;
     border-style: dotted;
-    overflow-y: scroll;
+    overflow-y: auto;
     padding-bottom: 5%;
     margin-top: -20px;
     margin-bottom: 90px;
