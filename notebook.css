@@ -29,7 +29,7 @@ header {
   margin-top: -2%;
   margin-left: 5%;
   margin-right: -300%;
-  width: 100%;
+  width: 100%; 
 }
 
 .img-brand {
@@ -40,7 +40,7 @@ header {
   padding-left: 1.5%;
   margin-top: -1.5%;
   background-color: rgb(241, 241, 241);
-  padding-top: 1%;
+  padding-top: 1% ;
   padding-bottom: 20px;
 }
 
@@ -55,13 +55,8 @@ header {
 
 .topnav .ul a {
   float: left;
-  color: #ffffff;
+  color: #ffff;
   padding: 2%;
-}
-
-.topnav .ul a.note {
-  /* background-color: #f00; */
-  color: #ffdc3c;
 }
 
 .topnav-right {
@@ -82,11 +77,11 @@ header {
 }
 /* Change the color of links on hover */
 .topnav .ul a:hover {
-  background-color: rgb(241, 241, 241);
+  background-color: #ffdc3c;
   color: black;
   border-radius: 6%;
   -webkit-transform: scale(1.08);
-  transform: scale(1.05);
+  transform: scale(1.05)
 }
 @media screen and (max-width: 1100px) {
   .topnav-right {
@@ -95,10 +90,10 @@ header {
   .topnav-right a {
     font-size: medium;
   }
-  #addNew {
-    margin-right: 600px;
-    font-size: 12px;
-  }
+#addNew {
+  margin-right: 600px;
+  font-size: 12px;
+}
 }
 @media screen and (max-width: 850px) {
   .topnav-right {
@@ -207,7 +202,7 @@ body {
 #addNew {
   display: flex;
   margin-left: 15%;
-  margin-right: 76%;
+  margin-right: 75%;
   justify-content: space-between;
   align-items: center;
   background-color: #ffdc3c;
@@ -218,7 +213,7 @@ body {
 }
 #addNew:hover {
   -webkit-transform: scale(1.08);
-  transform: scale(1.05);
+  transform: scale(1.05)
 }
 .fa-plus {
   background-color: #ffdc3c;
@@ -249,16 +244,6 @@ body {
   /* border: 5px solid hsl(39, 82%, 50%); */
   padding: 2%;
   overflow-y: scroll;
-  font-family: raleway;
-  font-size: small;
-}
-
-#tasks .fw-bold {
-  padding: 5px 0px 2px 10px;
-}
-
-#tasks .small.text-secondary {
-  padding: 2px 10px 2px 10px;
 }
 
 #tasks div {
@@ -286,18 +271,30 @@ body {
 
 #tasks div .options i {
   cursor: pointer;
-  padding: 15px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.modal-footer button {
+  margin-left: 10px;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #d4d4d4;
+  color: #141414;
+}
+
+.modal-footer .btn-primary {
+  background-color: #ffdc3c;
+  color: #141414;
 }
 
 #msg {
-  color: #ffdc3c;
+  color: #ff8800;
 }
-/* .text-secondary {
-  width: auto;
-}
-.w-100 {
-  width: 100px;
-}
-.h-100 {
-  height: 100px;
-} */
+
