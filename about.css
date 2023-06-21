@@ -1,77 +1,207 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  border-radius: 0%;
 }
 
-/* body {
-  height: 100vh;
-} */
-
-/* start navigation */
-.container-navigation {
+/* navbar */
+header {
+  color: #141414;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+.topnav {
   background-color: #2a2a2a;
+  overflow: hidden;
+  margin-top: 0%;
+  margin-bottom: 1%;
+  height: 11.2%;
 }
-
 .navbar-brand {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 37px;
-  color: #fdfc3c;
+  width: 100%;
+  margin-right: 100%;
+  margin-top: 0.5%;
+}
+.brand {
+  margin-top: -2%;
+  margin-left: 5%;
+  margin-right: -300%;
+  width: 100%;
 }
 
-.nav-item a {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 37px;
-  color: #ffffff;
+.img-brand {
+  width: 15%;
+  height: 50%;
+  float: left;
+  margin-left: 0%;
+  padding-left: 1.5%;
+  margin-top: -1.5%;
+  background-color: rgb(241, 241, 241);
+  padding-top: 1%;
+  padding-bottom: 20px;
 }
 
-.dropdown-menu a {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 37px;
-  color: #000000;
+.ul {
+  text-align: right;
+  float: right;
+  padding-right: 2%;
+  width: 75%;
+  font-size: 100%;
 }
-/* end navigation */
+/* Style the links inside the navigation bar */
+
+.topnav .ul a {
+  float: left;
+  color: #ffff;
+  padding: 2%;
+}
+
+.topnav-right {
+  margin-top: 0%;
+  padding: 0.15%;
+  padding-left: 15%;
+  margin-right: 25%;
+  display: flex;
+  margin-bottom: 0.4%;
+}
+.topnav-right a {
+  padding-inline: 5%;
+  color: #141414;
+  text-align: right;
+  margin-right: 15%;
+  text-decoration: none;
+  margin-bottom: 1%;
+}
+/* Change the color of links on hover */
+.topnav .ul a:hover {
+  background-color: #ffdc3c;
+  color: black;
+  border-radius: 6%;
+  -webkit-transform: scale(1.08);
+  transform: scale(1.05);
+}
+@media screen and (max-width: 1100px) {
+  .topnav-right {
+    padding-right: 5%;
+  }
+  .topnav-right a {
+    font-size: medium;
+  }
+}
+@media screen and (max-width: 850px) {
+  .topnav-right {
+    padding-right: 10%;
+  }
+  .topnav-right a {
+    font-size: small;
+  }
+  .ul {
+    margin-right: 10%;
+  }
+  .jumbotron-hello {
+    font-size: medium;
+    height: auto;
+    width: 100%;
+  }
+  .container-description {
+    font-size: medium;
+    height: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 530px) {
+  header {
+    height: auto;
+    width: 100%;
+    display: contents;
+  }
+  .img-brand {
+    width: 50%;
+    padding-bottom: 15%;
+    padding-top: 10%;
+    padding-top: auto;
+  }
+  .topnav {
+    padding-bottom: 5%;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-width: 1px;
+  }
+  .ul {
+    width: 100%;
+    margin-left: 1%;
+    display: contents;
+  }
+  .topnav-right {
+    display: grid;
+    margin-bottom: 16%;
+    font-size: 75%;
+    margin-left: 2px;
+  }
+  .topnav-right a {
+    text-align: left;
+    margin-bottom: 5%;
+    margin-left: -25%;
+  }
+  .jumbotron-hello {
+    font-size: small;
+    height: auto;
+    width: 100%;
+  }
+  .container-description {
+    font-size: small;
+    height: auto;
+    width: 100%;
+  }
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #fdfdfd;
+  align-items: right;
+  height: auto;
+}
 
 /* start jumbotron */
-/* .container-about {
-  border: 2px solid blue;
-} */
-
 .jumbotron-hello {
   height: 100vh;
 
-  background-image: url(assets/jumbotron/white-rocket.png);
+  background-image: url(https://raw.githubusercontent.com/reyfaldigit/website-todolist-feelstora/main/white-rocket.png);
   background-size: cover;
 }
 
 .container-hello {
   width: 600px;
-  height: 200px;
+  height: 230px;
 
   margin-top: 150px;
   text-align: justify;
 }
 
 .container-hello h1 {
-  font-style: normal;
+  font-family: 'Montserrat';
+  font-style: bold;
   font-weight: 400;
-  font-size: 45px;
-  line-height: 35px;
+  font-size: 50px;
+  line-height: 40px;
   color: #000000;
 
   margin-bottom: 20px;
 }
 
 .container-hello p {
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 22px;
+  line-height: 30px;
   color: #000000;
+
+  margin-left: 5px;
 }
 /* end jumbotron */
 
@@ -79,9 +209,7 @@
 .container-description {
   height: 100%;
 
-  justify-content: center;
-
-  background-image: url(assets/background/bg-description.png);
+  background-image: url(https://raw.githubusercontent.com/reyfaldigit/website-todolist-feelstora/main/bg-description.png);
   background-size: cover;
 }
 
@@ -89,15 +217,15 @@
   width: 100%;
   height: 90px;
 
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   padding: 10px;
 
   text-align: center;
 }
 
 .container-head h1 {
-  font-style: normal;
+  font-family: 'Montserrat';
+  font-style: bold;
   font-weight: 500;
   font-size: 35px;
   line-height: 40px;
@@ -108,6 +236,7 @@
 }
 
 .container-head p {
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 200;
   font-size: 20px;
@@ -116,145 +245,149 @@
   color: #000000;
 }
 
-.container-todolist {
-  width: 100%;
-  height: 300px;
-
-  padding: 10%;
-  justify-content: center;
-  align-items: center;
+.container-features-image {
+  height: 100%;
+  margin-top: 30px;
 }
 
-.todolist-image {
-  border: 2px solid #2a2a2a;
-  width: 450px;
-  height: 200px;
+.container-features-text {
+  height: 380px;
 
-  background-image: url(assets/description/todo.png);
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.container-todolist-image {
+  width: 390px;
+  height: 250px;
+
+  margin-left: 45px;
+  margin-right: 20px;
+
+  background-image: url(https://raw.githubusercontent.com/reyfaldigit/website-todolist-feelstora/main/todolist-image.png);
   background-size: contain;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+}
 
+.container-todolist-text {
+  width: 700px;
+  height: 300px;
+
+  margin-left: 85px;
+  margin-right: 60px;
+
+  text-align: center;
+}
+
+.container-todolist-text h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+
+  color: #000000;
+}
+
+.container-todolist-text p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.container-notebook-image {
+  width: 390px;
+  height: 250px;
+
+  margin-left: 20px;
+  margin-right: 20px;
+
+  background-image: url(https://raw.githubusercontent.com/reyfaldigit/website-todolist-feelstora/main/notebook-image.png);
+  background-size: cover;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container-notebook-text {
+  width: 750px;
+  height: 300px;
+
+  margin-left: 75px;
+  margin-right: 50px;
+
+  text-align: center;
+}
+
+.container-notebook-text h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+
+  color: #000000;
+}
+
+.container-notebook-text p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.container-calendar-image {
+  width: 390px;
+  height: 250px;
+
+  margin-left: 20px;
   margin-right: 40px;
+
+  background-image: url(https://raw.githubusercontent.com/reyfaldigit/website-todolist-feelstora/main/calendar-image.png);
+  background-size: cover;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
 }
 
-.todolist-text {
-  width: 750px;
-  height: 100px;
-
-  text-align: justify;
-}
-
-.todolist-text h1 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 26px;
-  line-height: 30px;
-
-  color: #000000;
-}
-
-.todolist-text p {
-  font-style: normal;
-  font-weight: 200;
-  font-size: 16px;
-  line-height: 20px;
-
-  color: #000000;
-}
-
-.container-notebook {
-  width: 100%;
+.container-calendar-text {
+  width: 700px;
   height: 300px;
 
-  padding: 10%;
-  justify-content: center;
-  align-items: center;
+  margin-left: 75px;
+  margin-right: 80px;
+
+  text-align: center;
 }
 
-.notebook-image {
-  border: 2px solid #2a2a2a;
-  width: 450px;
-  height: 200px;
-
-  background-image: url(assets/description/note.png);
-  background-size: contain;
-
-  margin-left: 40px;
-}
-
-.notebook-text {
-  width: 750px;
-  height: 100px;
-
-  text-align: justify;
-}
-
-.notebook-text h1 {
+.container-calendar-text h1 {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
-  font-size: 26px;
-  line-height: 30px;
+  font-size: 30px;
+  line-height: 40px;
 
   color: #000000;
 }
 
-.notebook-text p {
+.container-calendar-text p {
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 200;
-  font-size: 16px;
-  line-height: 20px;
-
-  color: #000000;
-}
-
-.container-calendar {
-  width: 100%;
-  height: 300px;
-
-  padding: 10%;
-  justify-content: center;
-  align-items: center;
-}
-
-.calendar-image {
-  border: 2px solid #2a2a2a;
-  width: 450px;
-  height: 183px;
-
-  background-image: url(assets/description/calendar.png);
-  background-size: contain;
-
-  margin-right: 40px;
-}
-
-.calendar-text {
-  width: 750px;
-  height: 100px;
-
-  text-align: justify;
-}
-
-.calendar-text h1 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 26px;
+  font-size: 20px;
   line-height: 30px;
-
-  color: #000000;
-}
-
-.calendar-text p {
-  font-style: normal;
-  font-weight: 200;
-  font-size: 16px;
-  line-height: 20px;
 
   color: #000000;
 }
 /* end description */
 
 /* start profile */
-#profile {
-  margin-top: 30px;
+.bg-team {
+  background-image: url(https://raw.githubusercontent.com/reyfaldigit/website-todolist-feelstora/main/bg-team.png);
+  background-size: cover;
 }
 
 .container-profile {
@@ -268,10 +401,31 @@
 }
 
 .profile-heading h3 {
+  border: 2px solid #2a2a2a;
+  border-radius: 20px;
+  background-color: #ffdc3c;
+  box-shadow: 3px 3px 2px #2a2a2a;
+
+  font-family: 'Montserrat';
+  font-style: bold;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+
+  color: #000000;
+
   margin-top: 20px;
 }
 
 .profile-heading p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #000000;
+
   margin-top: 20px;
 }
 
