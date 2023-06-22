@@ -194,7 +194,6 @@ body {
 }
 
 .container-hello p {
-  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -236,7 +235,6 @@ body {
 }
 
 .container-head p {
-  font-family: 'Raleway';
   font-style: normal;
   font-weight: 200;
   font-size: 20px;
@@ -290,7 +288,6 @@ body {
 }
 
 .container-todolist-text p {
-  font-family: 'Raleway';
   font-style: normal;
   font-weight: 200;
   font-size: 20px;
@@ -332,7 +329,6 @@ body {
 }
 
 .container-notebook-text p {
-  font-family: 'Raleway';
   font-style: normal;
   font-weight: 200;
   font-size: 20px;
@@ -374,7 +370,6 @@ body {
 }
 
 .container-calendar-text p {
-  font-family: 'Raleway';
   font-style: normal;
   font-weight: 200;
   font-size: 20px;
@@ -418,7 +413,6 @@ body {
 }
 
 .profile-heading p {
-  font-family: 'Raleway';
   font-style: normal;
   font-weight: 200;
   font-size: 20px;
