@@ -14,10 +14,8 @@ form.addEventListener('submit', (e) => {
 
 let formValidation = () => {
   if (textInput.value === '') {
-    console.log('failure');
     msg.innerHTML = 'Task cannot be blank';
   } else {
-    console.log('success');
     msg.innerHTML = '';
     acceptData();
     add.setAttribute('data-bs-dismiss', 'modal');
@@ -48,7 +46,6 @@ let acceptData = () => {
 
     localStorage.setItem('data2', JSON.stringify(data2));
   }
-  console.log(data2);
   createTasks();
 };
 
@@ -72,7 +69,6 @@ let deleteTask = (e) => {
   e.parentElement.parentElement.remove();
   data2.splice(e.parentElement.parentElement.id, 1);
   localStorage.setItem('data2', JSON.stringify(data2));
-  console.log(data2);
 };
 let editTask = (e) => {
   let selectedTask = e.parentElement.parentElement;
@@ -80,7 +76,6 @@ let editTask = (e) => {
   textInput.value = selectedData['text'];
   textarea.value = selectedData['description'];
   updateform.dataset.taskId = selectedTask.id;
-  console.log(selectedTask.id);
 };
 
 
@@ -92,6 +87,5 @@ let resetForm = () => {
 
 (() => {
   data2 = JSON.parse(localStorage.getItem('data2')) || [];
-  console.log(data2);
   createTasks();
 })();
